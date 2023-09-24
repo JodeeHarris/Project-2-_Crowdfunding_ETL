@@ -30,8 +30,8 @@ CREATE TABLE "Campaign" (
     "backers_count" int   NOT NULL,
     "country" varchar(2)   NOT NULL,
     "currency" varchar(3)   NOT NULL,
-    "launched_date" datetime   NOT NULL,
-    "end_date" datetime   NOT NULL,
+    "launched_date" date   NOT NULL,
+    "end_date" date   NOT NULL,
     "category_id" varchar(30)   NOT NULL,
     "subcategory_id" varchar(30)   NOT NULL
 );
